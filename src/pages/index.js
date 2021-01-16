@@ -4,11 +4,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Testimonials from "../components/Testimonials"
 import Trips from "../components/Trips"
+import Header from "../components/Header"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <Header /> 
     <Hero/>
+    <SEO title="Home" />
+    
     <Trips/>
     <Testimonials/>
   </Layout>
