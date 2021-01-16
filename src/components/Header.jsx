@@ -6,10 +6,10 @@ import {MenuData} from '../data/MenuData'
 import { Button } from "./Button";
 
 
-const Header = () =>{
+const Header = (props) =>{
     return(
         <Nav>
-            <NavLink to="/">OXDORA</NavLink>
+            <NavLink to="/">{props.name}</NavLink>
             <Bars/>
             <NavMenu>
                 {
@@ -21,7 +21,7 @@ const Header = () =>{
                 }
             </NavMenu>
             <NavButton>
-                <Button primary="true" round="true" to="/book">Contact US</Button>
+                <Button primary="true" round="true" to="/book">Contact</Button>
             </NavButton>
         </Nav>
     )
@@ -34,7 +34,7 @@ const Nav = styled.nav`
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem calc((100vw - 1300px)/2 );
     z-index: 100;
     position: relative;
 `

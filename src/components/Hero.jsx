@@ -24,6 +24,12 @@ const Hero= () =>{
 
 export default Hero;
 
+const VideoBg = styled.video`
+    width: 100%;
+    height:100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+`
 const HeroContainer = styled.div`
     background-color: #0c0c0c;
     display: flex;
@@ -60,12 +66,7 @@ const HeroBg = styled.div`
 
 `
 
-const VideoBg = styled.video`
-    width: 100%;
-    height:100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-`
+
 
 const HeroContent =styled.div`
     z-index: 3;

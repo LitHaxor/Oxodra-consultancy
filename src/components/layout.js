@@ -12,12 +12,12 @@ const Layout = ({ children }) => {
  
 
   return (
-    <>
+    <div>
       <GlobalStyle/>
-      <Header/> 
+      <Header name="OXDORA"/> 
         <main>{children}</main>
       
-    </>
+    </div>
   )
 }
 

@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: "videos",
-        path: `${__dirname}/src/assets/images`,
+        path: `${__dirname}/src/assets/videos`,
       },
     },
     `gatsby-transformer-sharp`,
