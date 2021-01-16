@@ -11,9 +11,9 @@ const Hero= () =>{
             </HeroBg>
             <HeroContent>
                 <HeroItems>
-                    <HeroH1>Dream BIG!</HeroH1>
-                    <HeroP>Get an expert consult from us.</HeroP>
-                    <HeroBtn primary="true" big="true" round="true" to="/trips">Contact Now</HeroBtn>
+                    <HeroH1>Explore Beyond!</HeroH1>
+                    <HeroP>Tour or Work we got you covered</HeroP>
+                    <HeroBtn primary="true" big="true" round="true" to="/trips">See Packages</HeroBtn>
                 </HeroItems>
                 
             </HeroContent>
@@ -95,7 +95,7 @@ const HeroH1 = styled.h1`
 `
 
 const HeroP = styled.p`
-    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-size: clamp(1.2rem, 2vw, 2rem);
     margin-bottom: 2rem;
     font-weight: 400;
 `

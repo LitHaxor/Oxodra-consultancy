@@ -5,15 +5,16 @@ import SEO from "../components/seo"
 import Testimonials from "../components/Testimonials"
 import Trips from "../components/Trips"
 import Header from "../components/Header"
+import Stats from "../components/stats"
 
 const IndexPage = () => (
   <Layout>
-    <Header /> 
+    <Header/> 
     <Hero/>
     <SEO title="Home" />
-    
     <Trips/>
     <Testimonials/>
+    <Stats/>
   </Layout>
 )
 

@@ -9,7 +9,7 @@ import { Button } from "./Button";
 const Header = () =>{
     return(
         <Nav>
-            <NavLink to="/">OXDORA Consultancy</NavLink>
+            <NavLink to="/">OXDORA</NavLink>
             <Bars/>
             <NavMenu>
                 {
@@ -21,7 +21,7 @@ const Header = () =>{
                 }
             </NavMenu>
             <NavButton>
-                <Button primary="true" round="true" to="/book">Book a Consultant</Button>
+                <Button primary="true" round="true" to="/book">Contact US</Button>
             </NavButton>
         </Nav>
     )
