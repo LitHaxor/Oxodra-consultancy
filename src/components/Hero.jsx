@@ -12,7 +12,7 @@ const Hero= () =>{
             <HeroContent>
                 <HeroItems>
                     <HeroH1>Dream BIG!</HeroH1>
-                    <HeroP>Get expert consult from us.</HeroP>
+                    <HeroP>Get an expert consult from us.</HeroP>
                     <HeroBtn primary="true" big="true" round="true" to="/trips">Contact Now</HeroBtn>
                 </HeroItems>
                 
@@ -83,24 +83,23 @@ const HeroItems = styled.div`
     max-height: 100%;
     padding: 0;
     color: #fff;
-    font-size: clamp(0.8rem, 3vw, 1.6rem);
     line-height: 1.1;
     font-weight: bold;
 `
 
 const HeroH1 = styled.h1`
-    font-size: clamp(1.9rem, 6vw, 4rem);
+    font-size: clamp(2rem, 6vw, 4rem);
     margin-bottom: 1.5rem;
     letter-spacing: 3px;
     padding: 0 1rem;
 `
 
 const HeroP = styled.p`
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1.5rem, 3vw, 3rem);
     margin-bottom: 2rem;
     font-weight: 400;
 `
 const HeroBtn = styled(Button)`
    align-self: center;
-   font-size: clamp(0.8rem, 3vw, 1.6rem);
+   font-size: clamp(0.8rem, 2vw, 1.6rem);
 `
