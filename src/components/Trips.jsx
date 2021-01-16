@@ -131,7 +131,7 @@ const TextWrap = styled.div`
 
 
 const ProductTitle = styled.h1`
-    font-weight: 400;
+    font-weight: 450;
     font-size: 1rem;
 
 `
