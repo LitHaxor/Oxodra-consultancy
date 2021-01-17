@@ -40,7 +40,7 @@ const HeroContainer = styled.div`
     padding:  0 1rem;
     position: relative;
     margin-top: -80px;
-    ::before{
+    :before{
         content:"";
         position: absolute;
         top: 0;
@@ -48,8 +48,11 @@ const HeroContainer = styled.div`
         right:0;
         left: 0;
         z-index: 2;
-        background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%),
-        linear-gradient(180deg, rgba(0,0,0,.2) 0%, transparent 100%);
+        background: linear-gradient(180deg,
+                     rgba(0,0,0,0.2) 0%,
+                     rgba(0,0,0,0.6) 100%
+                ),
+                linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
     }
 `
 

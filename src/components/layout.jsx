@@ -8,12 +8,14 @@
 import React from "react"
 import Footer from "./Footer";
 import { GlobalStyle } from "./styles/GlobalStyles";
+import Header from './Header';
 const Layout = ({ children }) => {
  
 
   return (
     <div>
       <GlobalStyle/>
+      <Header name="OXDORA"/> 
         <main>{children}</main>
        <Footer/>
     </div>
