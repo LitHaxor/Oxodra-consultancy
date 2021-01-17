@@ -29,6 +29,7 @@ const VideoBg = styled.video`
     height:100%;
     -o-object-fit: cover;
     object-fit: cover;
+    
 `
 const HeroContainer = styled.div`
     background-color: #0c0c0c;
@@ -40,20 +41,7 @@ const HeroContainer = styled.div`
     padding:  0 1rem;
     position: relative;
     margin-top: -80px;
-    :before{
-        content:"";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right:0;
-        left: 0;
-        z-index: 2;
-        background: linear-gradient(180deg,
-                     rgba(0,0,0,0.2) 0%,
-                     rgba(0,0,0,0.6) 100%
-                ),
-                linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
-    }
+    filter: brightness(0.5);
 `
 
 
