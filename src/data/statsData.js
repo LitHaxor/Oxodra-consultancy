@@ -5,9 +5,10 @@ import {MdTimer} from 'react-icons/md';
 import {FaMoneyCheck} from 'react-icons/fa';
 
 
+
 export const StatsData=[
     {
-        icons: (<GiEarthAsiaOceania  />),
+        icons: (<GiEarthAsiaOceania />),
         title: "Travel Anywhere",
         description: "Travel with trusted partners and affordable rate"
     },
@@ -28,3 +29,4 @@ export const StatsData=[
     },
     
 ]
+

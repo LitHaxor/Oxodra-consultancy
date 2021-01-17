@@ -6,6 +6,7 @@
  */
 
 import React from "react"
+import Footer from "./Footer";
 import { GlobalStyle } from "./styles/GlobalStyles";
 const Layout = ({ children }) => {
  
@@ -14,7 +15,7 @@ const Layout = ({ children }) => {
     <div>
       <GlobalStyle/>
         <main>{children}</main>
-      
+       <Footer/>
     </div>
   )
 }
