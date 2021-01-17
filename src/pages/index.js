@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import Testimonials from "../components/Testimonials";
 import Trips from "../components/Trips"
 import Stats from "../components/stats"
-import Email from "../components/Email";
+import Email from "../components/email";
 
 const IndexPage = () => (
   <Layout>
