@@ -35,14 +35,14 @@ const Testimonials = ( ) =>{
               <ColumnOne>
               <Testimonial>
                 <CheckMark/>
-                <h3>Get your Visa Ready</h3>
-                <p> Temporibus aperiam recusandae modi reiciendis ducimus officiis saepe obcaecati labore, similique voluptates.Assumenda distinctio est eius animi itaque laudantium architecto maiores impedit, ex, quae facere nesciunt mollitia quis sint deleniti consectetur voluptas aliquam asperiores necessitatibus! Ad sunt quos aliquam consequatur vitae illum?</p>
+                <h3>Get your Passport Ready</h3>
+                <p> Having trouble finding right agency for your travels or work visa. Just bring your passport and relax out fast track service will proccess documnets and other verification with ease.</p>
                 </Testimonial>
 
                 <Testimonial>
                 <BulbIcon />
                 <h3>Afforable Tours</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime distinctio labore hic. Dolorem earum ratione qui. Culpa cum voluptatibus rerum, incidunt esse recusandae nostrum repellat id corrupti magnam, quod adipisci.</p>
+                <p>Forget expensive travel deals, buy cheap and afforable deals with the best quality services. Payless for more!  </p>
                 </Testimonial>
 
               </ColumnOne>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gastby Travel Webite`,
-    description: `suck my di`,
-    author: `@gatsbyjs`,
+    title: `OXDORA`,
+    description: `Oxdora Travel and Consultancy`,
+    author: `@lithaxor`,
   },
   plugins:[
     `gatsby-plugin-react-helmet`,

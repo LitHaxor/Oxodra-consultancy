@@ -36,15 +36,15 @@
         "button" : "View Package"
     },
     {
-        "img": "../assets/images/dubai.jpg",
-        "alt": "Dubai ",
-        "name": "Dubai ",
+        "img": "../assets/images/india.jpg",
+        "alt": "India ",
+        "name": "India ",
         "button" : "View Package"
     },
     {
-        "img": "../assets/images/abu-dhabi.jpg",
-        "alt": "Abu Dhabi ",
-        "name": "Abu Dhabi ",
+        "img": "../assets/images/maldevs.jpg",
+        "alt": "Maldevs ",
+        "name": "Maldevs ",
         "button" : "View Package"
     }
 ]

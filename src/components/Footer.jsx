@@ -98,7 +98,7 @@ const FooterLink = styled.div`
     margin-bottom: 0.5rem;
     font-size: 14px;
     color: #3d3d4e;
-
+    cursor: pointer;
     &:hover{
         color: #f26a2e;
         transition: 0.3s ease-out;

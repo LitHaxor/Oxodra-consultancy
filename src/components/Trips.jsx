@@ -51,11 +51,14 @@ const Trips = () =>{
     return(
         <ProductsContainer>
             <ProductsHeading>
-              Our Packages
+              Our Best Packages
             </ProductsHeading>
             <ProductWrapper>
                {getTrips(data)}
             </ProductWrapper>
+            <ShowMore>
+                <Button to="/trips" primary="true" round="true" big="true">Show More packages</Button>
+            </ShowMore>
         </ProductsContainer>
     )
 }
@@ -140,4 +143,11 @@ const ProductButton = styled(Button)`
     position: absolute;
     top: 420px;
     font-size: 14px;
+`
+
+const ShowMore = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
 `
