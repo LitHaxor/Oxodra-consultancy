@@ -29,6 +29,7 @@ const VideoBg = styled.video`
     height:100%;
     -o-object-fit: cover;
     object-fit: cover;
+    filter: brightness(0.5);
     
 `
 const HeroContainer = styled.div`
@@ -41,7 +42,7 @@ const HeroContainer = styled.div`
     padding:  0 1rem;
     position: relative;
     margin-top: -80px;
-    filter: brightness(0.5);
+    
 `
 
 

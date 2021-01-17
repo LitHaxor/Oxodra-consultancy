@@ -6,9 +6,10 @@
  */
 
 import React from "react"
-import Footer from "./Footer";
-import { GlobalStyle } from "./styles/GlobalStyles";
 import Header from './Header';
+import { GlobalStyle } from "./styles/GlobalStyles";
+import Footer from "./Footer";
+
 const Layout = ({ children }) => {
  
 

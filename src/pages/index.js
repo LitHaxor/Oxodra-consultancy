@@ -9,7 +9,6 @@ import Email from "../components/email";
 
 const IndexPage = () => (
   <Layout>
-    
     <Hero/>
     <SEO title="Home" />
     <Trips/>
