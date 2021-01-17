@@ -22,5 +22,29 @@
         "alt": "Abu Dhabi ",
         "name": "Abu Dhabi ",
         "button" : "View Package"
+    },
+    {
+        "img": "../assets/images/Qatar.jpg",
+        "alt": "Qatar",
+        "name": "Qatar",
+        "button" : "View Package"
+    },
+    {
+        "img": "../assets/images/malysia.jpg",
+        "alt": "Malaysia  ",
+        "name": "Malaysia  ",
+        "button" : "View Package"
+    },
+    {
+        "img": "../assets/images/dubai.jpg",
+        "alt": "Dubai ",
+        "name": "Dubai ",
+        "button" : "View Package"
+    },
+    {
+        "img": "../assets/images/abu-dhabi.jpg",
+        "alt": "Abu Dhabi ",
+        "name": "Abu Dhabi ",
+        "button" : "View Package"
     }
 ]

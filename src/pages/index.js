@@ -1,11 +1,12 @@
 import React from "react";
+import Layout from "../components/layout";
 import Header from '../components/Header';
 import Hero from "../components/Hero"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Testimonials from "../components/Testimonials";
 import Trips from "../components/Trips"
 import Stats from "../components/stats"
+import Email from "../components/Email";
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Trips/>
     <Testimonials/>
     <Stats/>
+    <Email/>
   </Layout>
 )
 
